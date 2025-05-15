@@ -20,7 +20,17 @@ function calcImc(){
     */
    peso = parseFloat(peso);
 
-   
+
 imc = peso / (altura * altura)//calcular o IMC
 window.alert('Seu IMC é:'+imc);//mostrando o imc em janela
 }
+function alternarTema_escuro(){
+    const corpo = document.body; //corpo do html
+    corpo.classList.toggle("escuro");
+    corpo.classList.toggle("claro");
+}
+function alternarTema_escuro(){
+    const corpo = document.body; //corpo do html
+    corpo.classList.toggle("escuro");
+    corpo.classList.toggle("claro");
+ }
